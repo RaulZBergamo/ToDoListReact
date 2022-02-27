@@ -1,0 +1,26 @@
+textarea {
+    resize: none;
+}
+
+.modal-background {
+    position: absolute;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(0, 0, 0, .55);
+}
+
+.modal-background .modal-container {
+    background-color: #fff;
+
+    width: 25vw;
+    height: 60vh;
+
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
